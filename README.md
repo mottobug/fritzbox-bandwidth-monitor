@@ -23,6 +23,5 @@ Or using docker-compose:
 
 Point your Browser to http://localhost/fritzbox.html and view your traffic stats. Cron runs every five minutes and updates the html data within the container.
 
-![Example image]
-(images/example.png)
+![Example image](images/example.png)
 
