@@ -25,3 +25,6 @@ Point your Browser to http://localhost/fritzbox.html and view your traffic stats
 
 ![Example image](images/example.png)
 
+Other fritzbox related monitoring projects:
+[https://github.com/Tafkas/fritzbox-munin]
+
