@@ -10,6 +10,11 @@ Run with "docker":
 ```
 docker run -d -p 80:80 fritzbox-bandwidth-monitor 
 ````
+or (in case you want to persist the HTML output and log):
+```
+mkdir -p /home/pi/fritzbox/html
+docker run -d -v /home/pi/fritzbox/html:/var/www/html --restart always -p 80:80 fritzbox-bandwidth-monitor
+```
 
 Or using docker-compose:
 ```
