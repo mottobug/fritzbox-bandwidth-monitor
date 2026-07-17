@@ -9,7 +9,7 @@ RUN ln -fs /usr/share/zoneinfo/Europe/Berlin /etc/localtime && \
 RUN apt-get update && \
     apt-get -y dist-upgrade
 
-RUN apt-get -y install locales psmisc supervisor cron rsyslog wget mrtg apache2 netcat
+RUN apt-get -y install locales psmisc supervisor cron rsyslog wget mrtg apache2 netcat-openbsd
 
 RUN dpkg-reconfigure -f noninteractive locales
 RUN sed --in-place '/de_DE.UTF-8/s/^#//' /etc/locale.gen
